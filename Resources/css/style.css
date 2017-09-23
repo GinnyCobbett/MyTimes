@@ -1,0 +1,51 @@
+/* header */
+
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+}
+
+/* logo & title */
+
+.logo {
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo span {
+  color: MediumAquamarine;
+  padding-left: 10px;
+}
+
+/* navigation */
+
+nav {
+  display: block;
+  padding-right: 50px;
+}
+
+nav span {
+  padding: 20px 10px;
+}
+
+nav a:link {
+  color: black;
+}
+
+/*
+nav a:visited {
+  color: DarkGrey;
+}
+*/
+
+nav a:hover {
+  color: white;
+  background-color: black;
+}
