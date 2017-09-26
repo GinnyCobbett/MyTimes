@@ -6,16 +6,41 @@ div {
 
 body {
   font-family: Georgia;
+  margin: 0;
 }
 
 main {
   display: flex;
+  margin: 0 55px 55px 55px;
+  padding-top: 150px;
+}
+
+footer {
+  background-color: mediumaquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 325px;
+  justify-content: center;
+  font-family: Verdana;
+  font-size: 12px;
 }
 
 p {
   font-size: 17px;
+  margin: 16px 0;
 }
 
 h2 {
   font-size: 30px;
+}
+
+h3 {
+  font-size: 16px;
+  padding-bottom: 41px;
+  text-align: center;
+}
+
+.column {
+  margin-right: 32px;
 }

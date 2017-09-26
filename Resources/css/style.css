@@ -12,7 +12,20 @@
   height: 300px;
   text-align: center;
   font-size: 30px;
+  width: 300px;
 }
+
+.articles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column.left .image-articles {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
 
 /* left column containers */
 
@@ -27,8 +40,8 @@
   font-size: 40px;
 }
 
-.lead-article {
-  margin: 10px;
+.image-article {
+  border: 10px solid white;
 }
 
 #lead-image {
@@ -58,4 +71,19 @@
 
 .column.right {
   width: 240px;
+}
+
+.news-bites-list {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.news-bite {
+background-color: whitesmoke;
+margin-top: 1px;
+font-family: Verdana;
+font-size: 12px;
+padding: 11px 20px;
+color: dimgrey;
+border-bottom: 1px solid black;
 }

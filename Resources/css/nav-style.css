@@ -1,13 +1,18 @@
 /* header */
 
 header {
-  font-family: Verdana;
+  position: fixed;
   font-size: 14px;
   font-weight: bold;
+  background-color: #ffffff;
+  font-family: Verdana;
   display: flex;
   align-items: center;
   padding: 20px 0;
   border-bottom: 1px solid black;
+  height: 80px;
+  width: 100%;
+  z-index: 1;
 }
 
 /* logo & title */
