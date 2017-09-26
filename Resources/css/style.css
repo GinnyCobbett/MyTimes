@@ -1,84 +1,61 @@
-/* global elements */
+/* shared container elements */
 
-div {
-  border: 1px solid grey;
-}
-
-/* header */
-
-header {
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
+.image-title {
   display: flex;
-  align-items: center;
-  padding: 20px 0;
-  border-bottom: 1px solid black;
-}
-
-/* logo & title */
-
-.logo {
-  padding-left: 30px;
-  display: flex;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.logo span {
-  color: MediumAquamarine;
-  padding-left: 10px;
-}
-
-/* navigation */
-
-nav {
-  display: block;
-  padding-right: 50px;
-}
-
-nav span {
-  padding: 20px 10px;
-}
-
-nav a:link {
-  color: black;
-}
-
-/*
-nav a:visited {
-  color: DarkGrey;
-}
-*/
-
-nav a:hover {
+  flex-direction: column;
   color: white;
-  background-color: black;
+  font-weight: bold;
+  justify-content: center;
 }
 
-main {
-  display: flex;
+.article.image-title {
+  height: 300px;
+  text-align: center;
+  font-size: 30px;
 }
+
+/* left column containers */
 
 .column.left {
   width: 630px;
 }
 
+.lead.image-title {
+  height: 300px;
+  text-align: left;
+  padding-left: 30px;
+  font-size: 40px;
+}
+
+.lead-article {
+  margin: 10px;
+}
+
+#lead-image {
+  background-image: url(../media/img-story-main.png);
+}
+
+#article1 {
+  background-image: url(../media/img-story-1.png);
+}
+
+#article2 {
+  background-image: url(../media/img-story-2.png);
+}
+
+
+/* middle column containers */
+
 .column.middle {
   width: 300px;
 }
 
+#article3 {
+  background-image: url(../media/img-story-3.png);
+}
+
+/* right column containers */
+
 .column.right {
   width: 240px;
-}
-
-.lead-title {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
-}
-
-.lead-title h1 {
-  color: white;
-  font-family: Georgia;
-  font-size: 40px;
-  text-align: center;
 }
